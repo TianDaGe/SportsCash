@@ -1,0 +1,26 @@
+[Unit]
+Description=SportsCash's distributed currency daemon
+After=network.target
+
+[Service]
+User=sportscash
+Group=sportscash
+
+Type=forking
+PIDFile=/var/lib/sportscashd/sportscashd.pid
+
+ExecStart=/usr/bin/sportscashd -daemon -pid=/var/lib/sportscashd/sportscashd.pid \
+          -conf=/etc/sportscash/sportscash.conf -datadir=/var/lib/sportscashd
+
+ExecStop=-/usr/bin/sportscash-cli -conf=/etc/sportscash/sportscash.conf \
+         -datadir=/var/lib/sportscashd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

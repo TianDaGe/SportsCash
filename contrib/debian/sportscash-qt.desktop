@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SportsCash
+Comment=SportsCash P2P Cryptocurrency
+Comment[fr]=SportsCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SportsCash, eşten eşe kriptografik sanal para birimi
+Exec=sportscash-qt %u
+Terminal=false
+Type=Application
+Icon=sportscash128
+MimeType=x-scheme-handler/sportscash;
+Categories=Office;Finance;
