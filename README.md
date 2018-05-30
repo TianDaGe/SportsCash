@@ -16,7 +16,7 @@ Dash forked Bitcoin - PIVX Forked Dash - SPORTSCASH Forked PIVX
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
+<tr><td>Max Coin Supply (PoS)</td><td>24,000,000 SCC</td></tr>
 <tr><td>Premine</td><td>1,000,000 SCC</td></tr>
 <tr><td>Masternode Collateral</td><td>10,000 SCC</td></tr>
 <tr><td>Port Collateral</td><td>33001</td></tr>
