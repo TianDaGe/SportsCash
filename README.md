@@ -4,11 +4,11 @@ Dash forked Bitcoin - PIVX Forked Dash - SPORTSCASH Forked PIVX
 ## Project INFO ##
 
 <table>
-<tr><td>Bitcointalk</td><td>comming soon</td></tr>
+<tr><td>Bitcointalk</td><td>https://bitcointalk.org/index.php?topic=4356707.msg38922386#msg38922386</td></tr>
 <tr><td>Telegram</td><td>https://t.me/joinchat/GzldMxHltxGz_ZqHSFlGPg</td></tr>
-<tr><td>Discord</td><td>https://discord.gg/akjDUe</td></tr>
-<tr><td>Twitter</td><td>comming soon</td></tr>
-<tr><td>Website</td><td>https://sportscash.io</td></tr>
+<tr><td>Discord</td><td>https://discord.gg/GfuxwGB</td></tr>
+<tr><td>Twitter</td><td>https://twitter.com/SportsCash4You</td></tr>
+<tr><td>Website</td><td>http://sportscash.co</td></tr>
 </table>
 
 ## Coin Specs ##
