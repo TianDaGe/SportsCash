@@ -153,14 +153,11 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 	
-	assert(hashGenesisBlock == uint256("0xf6b136927729d3f92973f4df3bb489f80a08835e09a3d0cfaecc20110f5df65c"));
+	    assert(hashGenesisBlock == uint256("0xf6b136927729d3f92973f4df3bb489f80a08835e09a3d0cfaecc20110f5df65c"));
         assert(genesis.hashMerkleRoot == uint256("0x602541b8edc326023492b3adcda6e6d5ca5f3619528d9b2eaca63cb0e0a8824c"));
 
-        vSeeds.push_back(CDNSSeedData("0", "159.89.229.115"));
-        vSeeds.push_back(CDNSSeedData("1", "138.68.245.93"));
-	vSeeds.push_back(CDNSSeedData("2", "206.189.96.121"));
-	vSeeds.push_back(CDNSSeedData("3", "159.89.203.73"));
-	vSeeds.push_back(CDNSSeedData("4", "206.189.123.126"));
+        vSeeds.push_back(CDNSSeedData("0", "138.197.159.182"));
+        vSeeds.push_back(CDNSSeedData("1", "178.128.54.249"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
