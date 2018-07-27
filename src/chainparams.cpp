@@ -106,7 +106,7 @@ public:
         pchMessageStart[2] = 0x7d;
         pchMessageStart[3] = 0x18;
         vAlertPubKey = ParseHex("045a3a128a4aae34c2fe82586c219bc2a0b23cf395b49bc67e35e8ffcb0bd84088620b174fa69a7c05d318732addd3ac5825950747f929cd0122fd5f8ebf5f40c9");
-        nDefaultPort = 33001;
+        nDefaultPort = 55001;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -156,8 +156,8 @@ public:
 	    assert(hashGenesisBlock == uint256("0xf6b136927729d3f92973f4df3bb489f80a08835e09a3d0cfaecc20110f5df65c"));
         assert(genesis.hashMerkleRoot == uint256("0x602541b8edc326023492b3adcda6e6d5ca5f3619528d9b2eaca63cb0e0a8824c"));
 
-        vSeeds.push_back(CDNSSeedData("0", "138.197.159.182"));
-        vSeeds.push_back(CDNSSeedData("1", "178.128.54.249"));
+        vSeeds.push_back(CDNSSeedData("0", "178.128.5.47"));
+        vSeeds.push_back(CDNSSeedData("1", "142.93.6.205"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);

@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("sportscash-core", ""
 QT_TRANSLATE_NOOP("sportscash-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("sportscash-core", "(33001 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("sportscash-core", "(55001 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("sportscash-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("sportscash-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("sportscash-core", "(must be 33001 for mainnet)"),
+QT_TRANSLATE_NOOP("sportscash-core", "(must be 55001 for mainnet)"),
 QT_TRANSLATE_NOOP("sportscash-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("sportscash-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("sportscash-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
