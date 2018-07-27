@@ -127,3 +127,4 @@ CMakeLists.txt
 cmake-build-debug
 
 !libleveldb.a
+!libmemenv.a
